@@ -1,0 +1,119 @@
+html, body {
+    font-family: monospace;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url("https://i1.wp.com/papers.co/wallpaper/papers.co-bd79-night-city-dark-art-illustration-bw-35-3840x2160-4k-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*you were fixing the no repeat thing and making the image fit the screen XXXXXXXXXXXXXXXXXXXXXXXX
+change image  XXXXXXXXXXXXXX
+change colour scheme XXXXXXXXX */
+
+.outer {
+    background-color: black;
+    opacity: 0.75;
+    margin-top: 5px; 
+    margin-left: 25%;
+    margin-right:25%;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    padding: 2%;
+    height: 80vh;
+    width: 50vw;
+
+}
+/*finally fixed the image positioning */
+
+.separator { 
+    border: 1px solid white;
+    margin: 10x;
+    width: 80%;
+}
+
+.border {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    text-align: left;
+    width: auto;
+}
+
+.outer .contentcontainer {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.outer .textcontainer {
+    margin-left: 5px;
+    line-height: 0.75;
+}
+
+.outer img {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.min {
+    font-size: 7px;
+}
+
+.outer h1 {
+    font-size: 1.25rem;
+    text-decoration-line: underline;
+    text-decoration-color: solid white;
+}
+
+
+/*h1 + p {
+    color: navy;
+
+/* h1 + p selects the p which comes right after h1 */
+
+
+ /*h1 + p + */ ul {
+    list-style-type: none;
+}
+
+.contacts h1 {
+    line-height: 0.85;
+}
+
+li {
+    list-style: none;
+}
+
+li a:link {
+    font-weight: bold;
+    color:palegreen;
+    text-decoration:none;
+}
+
+li a:visited {
+    color:red;
+    text-decoration: line-through !important;
+}
+
+li a:hover {
+    font-size: 150%;
+}
+
+/* 
+change font
+add info 
+make small japanese be able to go right under heading
+*/

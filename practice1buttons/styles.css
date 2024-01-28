@@ -1,0 +1,25 @@
+button {
+    display: block;
+    margin-bottom: 1em;
+}
+
+div {
+    background-color: gainsboro;
+}
+
+.LtR {
+    animation-name: ltr;
+    animation-duration: 10s; 
+    animation-iteration-count:infinite; 
+    position:relative;
+}
+
+@keyframes ltr {
+    from {
+        left:10%;
+    }
+
+    to {
+        left:90%;
+    }
+}
